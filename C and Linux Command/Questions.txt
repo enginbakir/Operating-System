@@ -1,0 +1,36 @@
+Question 1 
+Write a program in C that takes two integers, M and N, as command line arguments and then saves a
+MxN matrix of random integers (0 - 100) in a file named “numbers.txt”.
+Sample Run:
+$ ./question1 15 4
+$ cat numbers.txt
+78 32 18 19
+43 91 27 99
+11 46 33 30
+...
+
+Question 2 
+Write a program in C that stores 1000 random integers (100 – 1000), one on each line, in a file named
+“numbers2.txt”. Then using shell pipes with “cat” and “grep” commands, find lines that contain
+numbers between 200 and 299. Hint: use regular expressions and search for lines beginning with 2.
+Sample Run:
+$ ./question2
+$ cat [...] | grep [...]
+258
+244
+...
+
+Question 3
+Write a program in C that prints a 10x10 matrix of random integers (0 - 10000) on screen. Then using
+shell pipes, “sort” command and stream redirection, sort this output according to 3rd column and save
+the sorted matrix in a file named “sorted.txt”. Save your file as ID-Lab1Q3.c (e.g. 12345689-Lab1Q3.c).
+Submit both your C code and terminal commands (as comment lines in your source code).
+Sample Run
+$ ./question3 432
+5876 856 7887 ...
+9135 17 342 398 ...
+...
+$ ./question3 [...]
+$ cat sorted.txt
+9135 17 342 398 ...
+432 5876 856 7887 ... 
